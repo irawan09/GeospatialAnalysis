@@ -1,0 +1,28 @@
+# Install Geopandas
+conda install geopandas -c conda-forge
+
+
+# Install the following Packages
+
+conda install -c conda-forge geojson
+conda install -c conda-forge matplotlib
+conda install -c conda-forge contextily
+conda install -c conda-forge folium
+conda install -c conda-forge ipyleaflet
+conda install -c conda-forge osmnx
+conda install -c conda-forge mapclassify
+conda install -c conda-forge seaborn
+conda install -c plotly plotly_express==0.4.1
+conda install -c conda-forge datashader
+conda install -c conda-forge geoviews
+conda install -c conda-forge/label/cf201901 pandas-profiling
+conda install -c conda-forge descartes
+conda install -c conda-forge/label/gcc7 descartes
+conda install -c anaconda lxml
+
+pip install geofeather
+
+conda install -c anaconda jupyter
+
+# If kernel name not appears on Jupyter notebook
+python -m ipykernel install --user --name spatialds --display-name "spatialds"
